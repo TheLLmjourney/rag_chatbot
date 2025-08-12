@@ -1,9 +1,13 @@
 dotenv
 langchain #0.3.26
+langchain_ollama
 flask  # ==3.1.1
 sentence-transformers # ==4.1.0
 pypdf # == 5.6.1
 langchain-pinecone # ==0.2.8
 langchain-openai # ==0.3.24
 langchain-community # ==0.3.26
+pinecone
+langchain_huggingface
+langchain_pinecone
 -e .
