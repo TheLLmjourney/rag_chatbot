@@ -10,4 +10,6 @@ langchain-community # ==0.3.26
 pinecone
 langchain_huggingface
 langchain_pinecone
+pyngrok
+streamlit
 -e .
