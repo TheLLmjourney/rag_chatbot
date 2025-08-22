@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 import pinecone
-from src.helper import load_pdf_files, filter_docs, text_split, download_hugging_face_embedding
+from src.utils import load_pdf_files, filter_docs, text_split, download_hugging_face_embedding
 from pinecone import Pinecone
 from pinecone import ServerlessSpec
 from langchain_pinecone import PineconeVectorStore

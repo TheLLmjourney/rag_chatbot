@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAG Chatbot</title>
+  <!-- Link CSS file -->
+  <!-- <link rel="stylesheet" href="/content/drive/MyDrive/Weekly Projects/Week 2 - RAG Chatbot with Conversation History/rag_chatbot/static/CSS/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/style.css') }}">
+
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header"> Interactive Chat Session - RAG Chatbot </div>
+    <div class="chat-body" id="chat-body">
+      <!-- Messages will appear here -->
+    </div>
+    <div class="chat-footer">
+      <!-- Hidden ID -->
+      <input type="hidden" id="session-id" value="{{ session_id }}">
+      <input type="text" id="user-input" placeholder="Ask me anything..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <!-- Link JS file -->
+  <!-- <script src="/content/drive/MyDrive/Weekly Projects/Week 2 - RAG Chatbot with Conversation History/rag_chatbot/static/style.css"></script> -->
+  <script src="{{ url_for('static', filename='JS/script.js') }}"></script>
+</body>
+</html>
