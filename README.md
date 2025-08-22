@@ -18,5 +18,6 @@ Unlike simple RAG demos, this chatbot:
 ---
 
 ## ⚙️ Architecture
+<img width="861" height="1111" alt="rag_chatbot drawio (2)" src="https://github.com/user-attachments/assets/06a528da-c70d-4654-b5bc-18ac979a2239" />
 
-![alt text](https://github.com/user-attachments/files/21937059/rag_chatbot.tif)
+
