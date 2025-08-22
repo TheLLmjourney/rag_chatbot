@@ -19,4 +19,4 @@ Unlike simple RAG demos, this chatbot:
 
 ## ⚙️ Architecture
 
-[rag_chatbot.tif](https://github.com/user-attachments/files/21937059/rag_chatbot.tif)
+![alt text](https://github.com/user-attachments/files/21937059/rag_chatbot.tif)
