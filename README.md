@@ -9,7 +9,7 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** built with:
 - **OpenAI GPT (gpt-4o-mini)** as the LLM
 - **FileChatMessageHistory** for persistent conversation memory
 
-Unlike simple RAG demos, this chatbot:
+The chatbot:
 1. **Rewrites follow-up questions** into standalone queries (contextualizer).
 2. **Retrieves relevant documents** from Pinecone.
 3. **Maintains session-based memory** (chat history saved as JSON).
